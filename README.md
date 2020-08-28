@@ -2,8 +2,8 @@
 
 Donald Ridley GPS tracking example.
 
-Uses a combination of Clarion, .NET, and Javascript to get information from GPS devices and track 
- moving vehicles and update a web map interactivately as the vehicles move. 
+Uses a combination of Clarion, .NET, and Javascript to get information from GPS devices, track 
+ moving vehicles, and update a web map interactivately as the vehicles move. 
 
 Huge **THANK YOU** to Mark Sarson!!
  
