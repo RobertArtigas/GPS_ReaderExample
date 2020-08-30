@@ -1,0 +1,105 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8088EC1F-74C7-4AA7-A62B-085C5E2A3769}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GPSReaderExample</RootNamespace>
+    <AssemblyName>GPSReaderExample</AssemblyName>
+    <OutputName>GPSReaderExample</OutputName>
+    <CWOutputType>Exe</CWOutputType>
+    <DefineConstants>StringTheoryLinkMode=&gt;1%3bStringTheoryDllMode=&gt;0%3bMD5=&gt;0%3bjFilesLinkMode=&gt;1%3bjFilesDllMode=&gt;0%3b_JFILES_=&gt;1%3b_NT10_=&gt;1%3b_NT11_=&gt;1%3b_NT_=&gt;1%3bNETTALKLOG=&gt;0%3b_RASLinkMode_=&gt;1%3b_RASDllMode_=&gt;0%3bWinEventLinkMode=&gt;1%3bWinEventDLLMode=&gt;0%3bDrawLinkMode=&gt;1%3bDrawDllMode=&gt;0%3b_DRAW_=&gt;1%3bDrawImage=&gt;1%3b_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_FreeImageDllMode_=&gt;0%3b_FreeImageLinkMode_=&gt;1%3b_NetTalkDllMode_=&gt;0%3b_NetTalkLinkMode_=&gt;1%3b_SADllMode_=&gt;0%3b_SALinkMode_=&gt;1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <vid>full</vid>
+    <check_stack>True</check_stack>
+    <check_index>True</check_index>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <vid>off</vid>
+    <check_stack>False</check_stack>
+    <check_index>False</check_index>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GPSReaderExample.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="GPSReaderExample001.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="GPSREADEREXAMPLE_BC.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="GPSReaderExample_BC0.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <None Include="barcode.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="caroot.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="cs_libpng.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="dh2048.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="FreeImage.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="libcrypto-1_1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="libssl-1_1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="OpenSSL.Exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="zlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="zlibwapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FileDriver Include="DOS" />
+    <FileDriver Include="TOPSPEED" />
+    <Library Include="clanet.lib" />
+    <Library Include="dparrow.cur" />
+    <Library Include="dpmove.cur" />
+    <Library Include="dpnesw.cur" />
+    <Library Include="dpns.cur" />
+    <Library Include="dpnwse.cur" />
+    <Library Include="dpwe.cur" />
+    <Library Include="FreeImage.lib" />
+    <Library Include="MapPinRed.ico" />
+  </ItemGroup>
+  <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
+</Project>
