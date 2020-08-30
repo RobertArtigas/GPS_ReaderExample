@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity name="ClaDevices" version="1.0.0.0" processorArchitecture="x86"></assemblyIdentity>
+<clrClass clsid="{C26C0809-084A-3CEE-BEBF-DF0DDBA41954}" progid="GarminGPSUSB.GPSUtilities" threadingModel="Both" name="GarminGPSUSB.GPSUtilities" runtimeVersion="v4.0.30319"></clrClass>
+<clrClass clsid="{C00C6849-97CC-4D9C-A3CF-71936535DD0C}" progid="ClaDevices" threadingModel="Both" name="ClaDevices.Devctrl" runtimeVersion="v4.0.30319"></clrClass>
+<clrClass clsid="{6089A342-0C92-330E-8E4C-69B9E01EDC28}" progid="ClaDevices.Devctrl+OnTestEvent" threadingModel="Both" name="ClaDevices.Devctrl+OnTestEvent" runtimeVersion="v4.0.30319"></clrClass>
+<file name="ClaDevices.dll" hashalg="SHA1"></file>
+</assembly>
