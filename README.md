@@ -13,6 +13,13 @@ Huge **THANK YOU** to Mark Sarson!!
 
 ClarionLive : 575 : Aug 28, 2020 : https://www.youtube.com/watch?v=wzt2EX9qvqU&feature=youtu.be
 
+##
+###
+
+There are three schools of magic. **One:** State a tautology, then ring the changes on its corollaries; that's philosophy. **Two:** Record many facts. Try to see a pattern. Then make a wrong guess at the next fact; that's science. **Three:** Awareness that you live in a malevolent universe controlled by Murphy's Law, sometimes offset in part by Brewster's Factor: that's engineering.<BR/>
+_Robert A. Heinlein_
+
+##
 
 <!-- [Wiki](https://github.com/RobertArtigas/GPS_ReaderExample/Wiku) --> 
 [Code](https://github.com/RobertArtigas/GPS_ReaderExample) 
